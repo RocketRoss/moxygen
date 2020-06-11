@@ -6,7 +6,8 @@
   "scripts": {
     "release": "release-it",
     "test": "npm run clean && cd example/ && doxygen && cd .. && node bin/moxygen.js --groups --pages --anchors --output=example/doc/api-%s.md example/xml",
-    "clean": "rm -rf example/doc/*.md example/xml/"
+    "vhdl": "npm run clean && cd example-vhdl/ && doxygen && cd .. && node bin/moxygen.js -l vhdl --anchors --output=example-vhdl/doc/vhdl.md example-vhdl/xml",
+    "clean": "rm -rf example/doc/*.md example/xml/ && rm -rf example-vhdl/doc/*.md example-vhdl/xml/"
   },
   "bin": {
     "moxygen": "./bin/moxygen.js"
