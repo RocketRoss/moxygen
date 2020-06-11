@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classmacc__caux__tb" kind="class" language="VHDL" prot="public">
+    <compoundname>macc_caux_tb</compoundname>
+    <basecompoundref refid="classmacc" prot="public" virt="non-virtual">macc</basecompoundref>
+    <innerclass refid="classmacc__caux__tb_1_1behav" prot="private">macc_caux_tb::behav</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmacc__caux__tb_1af4860af6be4c7777be4458c57ead9b22" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>WIDTH positive := 3</definition>
+        <argsstring> positive := 3</argsstring>
+        <name>WIDTH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="46" column="1" bodyfile="src/macc.vhd" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmacc__caux__tb_1aa6d44d90ba9a48494dfa7c64f3a0b519" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>HEIGHT positive := 3</definition>
+        <argsstring> positive := 3</argsstring>
+        <name>HEIGHT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="47" column="1" bodyfile="src/macc.vhd" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmacc__caux__tb_1a015c73f115f17b71f0c1e1e283244668" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>REVERSE_COEFF boolean :=   TRUE</definition>
+        <argsstring> boolean :=   TRUE</argsstring>
+        <name>REVERSE_COEFF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="49" column="1" bodyfile="src/macc.vhd" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmacc__caux__tb_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" static="no" mutable="no">
+        <type>_use_</type>
+        <definition>_use_ int_arrint_arr</definition>
+        <argsstring>int_arr</argsstring>
+        <name>int_arr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="42" column="1" bodyfile="src/macc.vhd" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>sum</label>
+        <link refid="classsum"/>
+      </node>
+      <node id="1">
+        <label>macc_caux_tb</label>
+        <link refid="classmacc__caux__tb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>product</label>
+        <link refid="classproduct"/>
+      </node>
+      <node id="2">
+        <label>macc</label>
+        <link refid="classmacc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>sum</label>
+        <link refid="classsum"/>
+      </node>
+      <node id="1">
+        <label>macc_caux_tb</label>
+        <link refid="classmacc__caux__tb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>product</label>
+        <link refid="classproduct"/>
+      </node>
+      <node id="2">
+        <label>macc</label>
+        <link refid="classmacc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/macc.vhd" line="44" column="1" bodyfile="src/macc.vhd" bodystart="44" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classmacc__caux__tb_1aa6d44d90ba9a48494dfa7c64f3a0b519" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>HEIGHT</name></member>
+      <member refid="classproduct_1aae838ca4e953e7ae750a321d1fde61bb" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>i_coeff</name></member>
+      <member refid="classmacc_1a874d3ddbf8d838c416fa8bc5d057094c" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>i_kernel</name></member>
+      <member refid="classproduct_1a1e490a8b8d81c637041d0ed4151ac3de" prot="public" virt="non-virtual" ambiguityscope="product."><scope>macc_caux_tb</scope><name>i_terms</name></member>
+      <member refid="classsum_1aa49dbe0149b92efb26ed5a627ec16bed" prot="public" virt="non-virtual" ambiguityscope="sum."><scope>macc_caux_tb</scope><name>i_terms</name></member>
+      <member refid="classmacc_1af589ddf6afa9732265a30fa5a6c7257b" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>i_window</name></member>
+      <member refid="classmacc__caux__tb_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>int_arr</name></member>
+      <member refid="classproduct_1a139417de078901d0496b7529fd2893a1" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>LEN1</name></member>
+      <member refid="classproduct_1a30c9f01e7e55007290db663dd617cd2a" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>LEN2</name></member>
+      <member refid="classmacc_1a1db3e5e57f438704c2a7164422a46bc1" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>o_macc</name></member>
+      <member refid="classproduct_1af6ab13c539e0b7946678e8aea4ad50f4" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>o_product</name></member>
+      <member refid="classsum_1a2d1d3b5c8f112f3756b606e6f2261876" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>o_sum</name></member>
+      <member refid="classmacc__caux__tb_1a015c73f115f17b71f0c1e1e283244668" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>REVERSE_COEFF</name></member>
+      <member refid="classmacc__caux__tb_1af4860af6be4c7777be4458c57ead9b22" prot="public" virt="non-virtual"><scope>macc_caux_tb</scope><name>WIDTH</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classsum" kind="class" language="VHDL" prot="public">
+    <compoundname>sum</compoundname>
+    <derivedcompoundref refid="classmacc" prot="public" virt="non-virtual">macc</derivedcompoundref>
+    <derivedcompoundref refid="classsum__tb" prot="public" virt="non-virtual">sum_tb</derivedcompoundref>
+    <innerclass refid="classsum_1_1comb" prot="private">sum::comb</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsum_1aa49dbe0149b92efb26ed5a627ec16bed" prot="public" static="no" mutable="no">
+        <type>in</type>
+        <definition>in i_terms int_arr_t </definition>
+        <argsstring> int_arr_t </argsstring>
+        <name>i_terms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/sum.vhd" line="8" column="1" bodyfile="src/sum.vhd" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsum_1a2d1d3b5c8f112f3756b606e6f2261876" prot="public" static="no" mutable="no">
+        <type>out</type>
+        <definition>out o_sum integer </definition>
+        <argsstring> integer </argsstring>
+        <name>o_sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/sum.vhd" line="10" column="1" bodyfile="src/sum.vhd" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsum_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" static="no" mutable="no">
+        <type>_use_</type>
+        <definition>_use_ int_arrint_arr</definition>
+        <argsstring>int_arr</argsstring>
+        <name>int_arr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/sum.vhd" line="1" column="1" bodyfile="src/sum.vhd" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>sum</label>
+        <link refid="classsum"/>
+      </node>
+      <node id="3">
+        <label>macc_caux_tb</label>
+        <link refid="classmacc__caux__tb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>sum_tb</label>
+        <link refid="classsum__tb"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>macc</label>
+        <link refid="classmacc"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/sum.vhd" line="3" column="1" bodyfile="src/sum.vhd" bodystart="3" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classsum_1aa49dbe0149b92efb26ed5a627ec16bed" prot="public" virt="non-virtual"><scope>sum</scope><name>i_terms</name></member>
+      <member refid="classsum_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" virt="non-virtual"><scope>sum</scope><name>int_arr</name></member>
+      <member refid="classsum_1a2d1d3b5c8f112f3756b606e6f2261876" prot="public" virt="non-virtual"><scope>sum</scope><name>o_sum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classslide__tb__caux_1_1behav" kind="class" language="VHDL" prot="private">
+    <compoundname>slide_tb_caux::behav</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classslide__tb__caux_1_1behav_1afcecdced6a11666dc5cf7ae9cf30a0d1" prot="public" static="no" mutable="no">
+        <type>int_mat_t ( 0 to    IN_LEN1- 1, 0 to    IN_LEN2- 1):=( others =&gt;( others =&gt; 0))</type>
+        <definition>int_mat_t ( 0 to    IN_LEN1- 1, 0 to    IN_LEN2- 1):=( others =&gt;( others =&gt; 0)) s_in</definition>
+        <argsstring></argsstring>
+        <name>s_in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="55" column="1" bodyfile="src/slide.vhd" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide__tb__caux_1_1behav_1aea0e411a4ee4bc5e817f55a559a66e28" prot="public" static="no" mutable="no">
+        <type>int_3d_t ( 0 to    WINDOW_SIZE( 0)- 1, 0 to    WINDOW_SIZE( 1)- 1, 0 to    WINDOW_COUNT- 1):=( others =&gt;( others =&gt;( others =&gt; 0)))</type>
+        <definition>int_3d_t ( 0 to    WINDOW_SIZE( 0)- 1, 0 to    WINDOW_SIZE( 1)- 1, 0 to    WINDOW_COUNT- 1):=( others =&gt;( others =&gt;( others =&gt; 0))) s_windows</definition>
+        <argsstring></argsstring>
+        <name>s_windows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="56" column="1" bodyfile="src/slide.vhd" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide__tb__caux_1_1behav_1a3691308f2a4c2f6983f2880d32e29c84" prot="public" static="no" mutable="no">
+        <type><ref refid="classslide" kindref="compound">slide</ref></type>
+        <definition></definition>
+        <argsstring>s</argsstring>
+        <name>s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="66" column="1" bodyfile="src/slide.vhd" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/slide.vhd" line="54" column="1" bodyfile="src/slide.vhd" bodystart="54" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classslide__tb__caux_1_1behav_1a3691308f2a4c2f6983f2880d32e29c84" prot="public" virt="non-virtual"><scope>slide_tb_caux::behav</scope><name>s</name></member>
+      <member refid="classslide__tb__caux_1_1behav_1afcecdced6a11666dc5cf7ae9cf30a0d1" prot="public" virt="non-virtual"><scope>slide_tb_caux::behav</scope><name>s_in</name></member>
+      <member refid="classslide__tb__caux_1_1behav_1aea0e411a4ee4bc5e817f55a559a66e28" prot="public" virt="non-virtual"><scope>slide_tb_caux::behav</scope><name>s_windows</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

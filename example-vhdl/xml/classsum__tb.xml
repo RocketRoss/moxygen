@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classsum__tb" kind="class" language="VHDL" prot="public">
+    <compoundname>sum_tb</compoundname>
+    <basecompoundref refid="classsum" prot="public" virt="non-virtual">sum</basecompoundref>
+    <innerclass refid="classsum__tb_1_1behav" prot="private">sum_tb::behav</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsum__tb_1a9c7724abc45c0e46577182897ca7e90e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>WIDTH positive := 2</definition>
+        <argsstring> positive := 2</argsstring>
+        <name>WIDTH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/sum.vhd" line="34" column="1" bodyfile="src/sum.vhd" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsum__tb_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" static="no" mutable="no">
+        <type>_use_</type>
+        <definition>_use_ int_arrint_arr</definition>
+        <argsstring>int_arr</argsstring>
+        <name>int_arr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/sum.vhd" line="29" column="1" bodyfile="src/sum.vhd" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>sum</label>
+        <link refid="classsum"/>
+      </node>
+      <node id="1">
+        <label>sum_tb</label>
+        <link refid="classsum__tb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>sum</label>
+        <link refid="classsum"/>
+      </node>
+      <node id="1">
+        <label>sum_tb</label>
+        <link refid="classsum__tb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/sum.vhd" line="31" column="1" bodyfile="src/sum.vhd" bodystart="31" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classsum_1aa49dbe0149b92efb26ed5a627ec16bed" prot="public" virt="non-virtual"><scope>sum_tb</scope><name>i_terms</name></member>
+      <member refid="classsum__tb_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" virt="non-virtual"><scope>sum_tb</scope><name>int_arr</name></member>
+      <member refid="classsum_1a2d1d3b5c8f112f3756b606e6f2261876" prot="public" virt="non-virtual"><scope>sum_tb</scope><name>o_sum</name></member>
+      <member refid="classsum__tb_1a9c7724abc45c0e46577182897ca7e90e" prot="public" virt="non-virtual"><scope>sum_tb</scope><name>WIDTH</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

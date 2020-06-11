@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classn__macc_1_1behav" kind="class" language="VHDL" prot="private">
+    <compoundname>n_macc::behav</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classn__macc_1_1behav_1a296de355ed703ecb6834e683ecc8911c" prot="public" static="no" mutable="no">
+        <type>int_mat_t ( 0 to    LEN1*   LEN2- 1, 0 to    LEN3- 1):=( others =&gt;( others =&gt; 0))</type>
+        <definition>int_mat_t ( 0 to    LEN1*   LEN2- 1, 0 to    LEN3- 1):=( others =&gt;( others =&gt; 0)) s_terms</definition>
+        <argsstring></argsstring>
+        <name>s_terms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_macc.vhd" line="22" column="1" bodyfile="src/n_macc.vhd" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__macc_1_1behav_1ac483f6ce851c9ecd9fb835ff7551737c" prot="public" static="no" mutable="no">
+        <type><ref refid="classn__product" kindref="compound">n_product</ref></type>
+        <definition></definition>
+        <argsstring>p</argsstring>
+        <name>p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_macc.vhd" line="35" column="1" bodyfile="src/n_macc.vhd" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__macc_1_1behav_1a3691308f2a4c2f6983f2880d32e29c84" prot="public" static="no" mutable="no">
+        <type><ref refid="classn__sum" kindref="compound">n_sum</ref></type>
+        <definition></definition>
+        <argsstring>s</argsstring>
+        <name>s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_macc.vhd" line="45" column="1" bodyfile="src/n_macc.vhd" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/n_macc.vhd" line="21" column="1" bodyfile="src/n_macc.vhd" bodystart="21" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classn__macc_1_1behav_1ac483f6ce851c9ecd9fb835ff7551737c" prot="public" virt="non-virtual"><scope>n_macc::behav</scope><name>p</name></member>
+      <member refid="classn__macc_1_1behav_1a3691308f2a4c2f6983f2880d32e29c84" prot="public" virt="non-virtual"><scope>n_macc::behav</scope><name>s</name></member>
+      <member refid="classn__macc_1_1behav_1a296de355ed703ecb6834e683ecc8911c" prot="public" virt="non-virtual"><scope>n_macc::behav</scope><name>s_terms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

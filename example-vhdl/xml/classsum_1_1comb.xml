@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classsum_1_1comb" kind="class" language="VHDL" prot="private">
+    <compoundname>sum::comb</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsum_1_1comb_1af450c291844579df87a3df4253878825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PROCESS_5</definition>
+        <argsstring>i_terms</argsstring>
+        <name>PROCESS_5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/sum.vhd" line="16" column="1" bodyfile="src/sum.vhd" bodystart="16" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/sum.vhd" line="13" column="1" bodyfile="src/sum.vhd" bodystart="13" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classsum_1_1comb_1af450c291844579df87a3df4253878825" prot="public" virt="non-virtual"><scope>sum::comb</scope><name>PROCESS_5</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

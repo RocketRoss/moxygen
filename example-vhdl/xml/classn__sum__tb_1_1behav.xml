@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classn__sum__tb_1_1behav" kind="class" language="VHDL" prot="private">
+    <compoundname>n_sum_tb::behav</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classn__sum__tb_1_1behav_1afbd98b73d1010dc144e14e67903ad6ea" prot="public" static="no" mutable="no">
+        <type>int_mat_t ( 0 to    WIDTH- 1, 0 to    N- 1):=( others =&gt;( others =&gt; 1))</type>
+        <definition>int_mat_t ( 0 to    WIDTH- 1, 0 to    N- 1):=( others =&gt;( others =&gt; 1)) terms</definition>
+        <argsstring></argsstring>
+        <name>terms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_sum.vhd" line="43" column="1" bodyfile="src/n_sum.vhd" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__sum__tb_1_1behav_1aed7736cd05087d5b4ffe350ecd818f89" prot="public" static="no" mutable="no">
+        <type>int_arr_t( 0 to    N- 1) :=( others =&gt; 0)</type>
+        <definition>int_arr_t( 0 to    N- 1) :=( others =&gt; 0) n_summ</definition>
+        <argsstring></argsstring>
+        <name>n_summ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_sum.vhd" line="44" column="1" bodyfile="src/n_sum.vhd" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__sum__tb_1_1behav_1a3691308f2a4c2f6983f2880d32e29c84" prot="public" static="no" mutable="no">
+        <type><ref refid="classn__sum" kindref="compound">n_sum</ref></type>
+        <definition></definition>
+        <argsstring>s</argsstring>
+        <name>s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_sum.vhd" line="54" column="1" bodyfile="src/n_sum.vhd" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classn__sum__tb_1_1behav_1af0caed2af0190b69030cc982192e635e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PROCESS_4</definition>
+        <argsstring></argsstring>
+        <name>PROCESS_4</name>
+        <briefdescription>
+<para>Test the behaviour of <ref refid="classn__sum" kindref="compound">n_sum</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="" line="57" column="1" bodyfile="src/n_sum.vhd" bodystart="57" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/n_sum.vhd" line="42" column="1" bodyfile="src/n_sum.vhd" bodystart="42" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classn__sum__tb_1_1behav_1aed7736cd05087d5b4ffe350ecd818f89" prot="public" virt="non-virtual"><scope>n_sum_tb::behav</scope><name>n_summ</name></member>
+      <member refid="classn__sum__tb_1_1behav_1af0caed2af0190b69030cc982192e635e" prot="public" virt="non-virtual"><scope>n_sum_tb::behav</scope><name>PROCESS_4</name></member>
+      <member refid="classn__sum__tb_1_1behav_1a3691308f2a4c2f6983f2880d32e29c84" prot="public" virt="non-virtual"><scope>n_sum_tb::behav</scope><name>s</name></member>
+      <member refid="classn__sum__tb_1_1behav_1afbd98b73d1010dc144e14e67903ad6ea" prot="public" virt="non-virtual"><scope>n_sum_tb::behav</scope><name>terms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

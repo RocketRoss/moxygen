@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classslide" kind="class" language="VHDL" prot="public">
+    <compoundname>slide</compoundname>
+    <derivedcompoundref refid="classslide__tb__caux" prot="public" virt="non-virtual">slide_tb_caux</derivedcompoundref>
+    <innerclass refid="classslide_1_1comb" prot="private">slide::comb</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classslide_1a91b66019c3a9882200fa6ad4aa990bd1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>WINDOW_SIZE int_arr_t( 0 to  1) </definition>
+        <argsstring> int_arr_t( 0 to  1) </argsstring>
+        <name>WINDOW_SIZE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="5" column="1" bodyfile="src/slide.vhd" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide_1a08d01c04fe86810d86da6946c6bbbea5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>WINDOW_STRIDE int_arr_t( 0 to  1) </definition>
+        <argsstring> int_arr_t( 0 to  1) </argsstring>
+        <name>WINDOW_STRIDE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="7" column="1" bodyfile="src/slide.vhd" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide_1a0f5bd1417751be61ec9dc0e014c1ecd1" prot="public" static="no" mutable="no">
+        <type>in</type>
+        <definition>in i_in int_mat_t </definition>
+        <argsstring> int_mat_t </argsstring>
+        <name>i_in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="9" column="1" bodyfile="src/slide.vhd" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide_1ac8667d09263a09f6edb082093a8a6f0c" prot="public" static="no" mutable="no">
+        <type>out</type>
+        <definition>out o_windows int_3d_t </definition>
+        <argsstring> int_3d_t </argsstring>
+        <name>o_windows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="11" column="1" bodyfile="src/slide.vhd" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide_1afbdee8a717f8910c70884a1c95ac5f85" prot="public" static="no" mutable="no">
+        <type>integer :=   i_in&apos;length( 1)</type>
+        <definition>integer :=   i_in&apos;length( 1) IN_LEN1</definition>
+        <argsstring></argsstring>
+        <name>IN_LEN1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="13" column="1" bodyfile="src/slide.vhd" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide_1ae9fb1e414e0f3c0bd76469b4f984d6ee" prot="public" static="no" mutable="no">
+        <type>integer :=   i_in&apos;length( 2)</type>
+        <definition>integer :=   i_in&apos;length( 2) IN_LEN2</definition>
+        <argsstring></argsstring>
+        <name>IN_LEN2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="14" column="1" bodyfile="src/slide.vhd" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide_1a939381719fedaf493cd9c181ace319a8" prot="public" static="no" mutable="no">
+        <type>integer := 1+(   IN_LEN1-   WINDOW_SIZE( 0)/   WINDOW_STRIDE( 0))</type>
+        <definition>integer := 1+(   IN_LEN1-   WINDOW_SIZE( 0)/   WINDOW_STRIDE( 0)) WINDOW_COUNT_1</definition>
+        <argsstring></argsstring>
+        <name>WINDOW_COUNT_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="15" column="1" bodyfile="src/slide.vhd" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide_1a417518288a6ea62c4bbb56256e58d263" prot="public" static="no" mutable="no">
+        <type>integer := 1+(   IN_LEN2-   WINDOW_SIZE( 1)/   WINDOW_STRIDE( 1))</type>
+        <definition>integer := 1+(   IN_LEN2-   WINDOW_SIZE( 1)/   WINDOW_STRIDE( 1)) WINDOW_COUNT_2</definition>
+        <argsstring></argsstring>
+        <name>WINDOW_COUNT_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="16" column="1" bodyfile="src/slide.vhd" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" static="no" mutable="no">
+        <type>_use_</type>
+        <definition>_use_ int_arrint_arr</definition>
+        <argsstring>int_arr</argsstring>
+        <name>int_arr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="1" column="1" bodyfile="src/slide.vhd" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>slide_tb_caux</label>
+        <link refid="classslide__tb__caux"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>slide</label>
+        <link refid="classslide"/>
+      </node>
+    </inheritancegraph>
+    <location file="src/slide.vhd" line="3" column="1" bodyfile="src/slide.vhd" bodystart="3" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classslide_1a0f5bd1417751be61ec9dc0e014c1ecd1" prot="public" virt="non-virtual"><scope>slide</scope><name>i_in</name></member>
+      <member refid="classslide_1afbdee8a717f8910c70884a1c95ac5f85" prot="public" virt="non-virtual"><scope>slide</scope><name>IN_LEN1</name></member>
+      <member refid="classslide_1ae9fb1e414e0f3c0bd76469b4f984d6ee" prot="public" virt="non-virtual"><scope>slide</scope><name>IN_LEN2</name></member>
+      <member refid="classslide_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" virt="non-virtual"><scope>slide</scope><name>int_arr</name></member>
+      <member refid="classslide_1ac8667d09263a09f6edb082093a8a6f0c" prot="public" virt="non-virtual"><scope>slide</scope><name>o_windows</name></member>
+      <member refid="classslide_1a939381719fedaf493cd9c181ace319a8" prot="public" virt="non-virtual"><scope>slide</scope><name>WINDOW_COUNT_1</name></member>
+      <member refid="classslide_1a417518288a6ea62c4bbb56256e58d263" prot="public" virt="non-virtual"><scope>slide</scope><name>WINDOW_COUNT_2</name></member>
+      <member refid="classslide_1a91b66019c3a9882200fa6ad4aa990bd1" prot="public" virt="non-virtual"><scope>slide</scope><name>WINDOW_SIZE</name></member>
+      <member refid="classslide_1a08d01c04fe86810d86da6946c6bbbea5" prot="public" virt="non-virtual"><scope>slide</scope><name>WINDOW_STRIDE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classn__macc__caux__tb" kind="class" language="VHDL" prot="public">
+    <compoundname>n_macc_caux_tb</compoundname>
+    <basecompoundref refid="classn__macc" prot="public" virt="non-virtual">n_macc</basecompoundref>
+    <innerclass refid="classn__macc__caux__tb_1_1behav" prot="private">n_macc_caux_tb::behav</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classn__macc__caux__tb_1af4860af6be4c7777be4458c57ead9b22" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>WIDTH positive := 3</definition>
+        <argsstring> positive := 3</argsstring>
+        <name>WIDTH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_macc.vhd" line="53" column="1" bodyfile="src/n_macc.vhd" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__macc__caux__tb_1aa6d44d90ba9a48494dfa7c64f3a0b519" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>HEIGHT positive := 3</definition>
+        <argsstring> positive := 3</argsstring>
+        <name>HEIGHT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_macc.vhd" line="54" column="1" bodyfile="src/n_macc.vhd" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__macc__caux__tb_1ad55b24577e52e0166994098b64e8588a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>N positive := 2</definition>
+        <argsstring> positive := 2</argsstring>
+        <name>N</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_macc.vhd" line="55" column="1" bodyfile="src/n_macc.vhd" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__macc__caux__tb_1a015c73f115f17b71f0c1e1e283244668" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>REVERSE_COEFF boolean :=   TRUE</definition>
+        <argsstring> boolean :=   TRUE</argsstring>
+        <name>REVERSE_COEFF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_macc.vhd" line="57" column="1" bodyfile="src/n_macc.vhd" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__macc__caux__tb_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" static="no" mutable="no">
+        <type>_use_</type>
+        <definition>_use_ int_arrint_arr</definition>
+        <argsstring>int_arr</argsstring>
+        <name>int_arr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_macc.vhd" line="49" column="1" bodyfile="src/n_macc.vhd" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>n_sum</label>
+        <link refid="classn__sum"/>
+      </node>
+      <node id="3">
+        <label>n_product</label>
+        <link refid="classn__product"/>
+      </node>
+      <node id="1">
+        <label>n_macc_caux_tb</label>
+        <link refid="classn__macc__caux__tb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>n_macc</label>
+        <link refid="classn__macc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>n_sum</label>
+        <link refid="classn__sum"/>
+      </node>
+      <node id="3">
+        <label>n_product</label>
+        <link refid="classn__product"/>
+      </node>
+      <node id="1">
+        <label>n_macc_caux_tb</label>
+        <link refid="classn__macc__caux__tb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>n_macc</label>
+        <link refid="classn__macc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/n_macc.vhd" line="51" column="1" bodyfile="src/n_macc.vhd" bodystart="51" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classn__macc__caux__tb_1aa6d44d90ba9a48494dfa7c64f3a0b519" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>HEIGHT</name></member>
+      <member refid="classn__product_1aa646023603250d012027ce01d3e6fead" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>i_coeff</name></member>
+      <member refid="classn__macc_1a450b222f85a435b0a34cc4e8e5a08a10" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>i_kernel</name></member>
+      <member refid="classn__product_1a36eae7a54bf2229f76fd09b28f4bbbbd" prot="public" virt="non-virtual" ambiguityscope="n_product."><scope>n_macc_caux_tb</scope><name>i_terms</name></member>
+      <member refid="classn__sum_1a1e490a8b8d81c637041d0ed4151ac3de" prot="public" virt="non-virtual" ambiguityscope="n_sum."><scope>n_macc_caux_tb</scope><name>i_terms</name></member>
+      <member refid="classn__macc_1a5ebe5dc8b86c61e5b920c81824a5dbf9" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>i_window</name></member>
+      <member refid="classn__macc__caux__tb_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>int_arr</name></member>
+      <member refid="classn__macc_1ad180f69a50aee13c52107bec0a729382" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>LEN1</name></member>
+      <member refid="classn__macc_1a42ac0bb79a533d0e975c196278708964" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>LEN2</name></member>
+      <member refid="classn__macc_1ae125806e1f23d55c76fb281055e1e9a8" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>LEN3</name></member>
+      <member refid="classn__macc__caux__tb_1ad55b24577e52e0166994098b64e8588a" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>N</name></member>
+      <member refid="classn__macc_1a0d8905b8fac5d21c3a81b867b2883b8f" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>o_n_macc</name></member>
+      <member refid="classn__product_1ace2b981d78f626c07c93bca2e4b95e8e" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>o_n_product</name></member>
+      <member refid="classn__sum_1ad04d4b367a0569d6346a8a02ba6d8b03" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>o_n_sum</name></member>
+      <member refid="classn__macc__caux__tb_1a015c73f115f17b71f0c1e1e283244668" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>REVERSE_COEFF</name></member>
+      <member refid="classn__macc__caux__tb_1af4860af6be4c7777be4458c57ead9b22" prot="public" virt="non-virtual"><scope>n_macc_caux_tb</scope><name>WIDTH</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

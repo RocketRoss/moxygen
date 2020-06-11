@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classslide__tb__caux" kind="class" language="VHDL" prot="public">
+    <compoundname>slide_tb_caux</compoundname>
+    <basecompoundref refid="classslide" prot="public" virt="non-virtual">slide</basecompoundref>
+    <innerclass refid="classslide__tb__caux_1_1behav" prot="private">slide_tb_caux::behav</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classslide__tb__caux_1a6b1c75d02b4bfee6faf1bd634f2135e9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>WINDOW_SIZE int_arr_t( 0 to  1) :=( 2, 2)</definition>
+        <argsstring> int_arr_t( 0 to  1) :=( 2, 2)</argsstring>
+        <name>WINDOW_SIZE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="42" column="1" bodyfile="src/slide.vhd" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide__tb__caux_1ad74e82ca8dc7933c7567d5380e6ef86a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>WINDOW_STRIDE int_arr_t( 0 to  1) :=( 2, 2)</definition>
+        <argsstring> int_arr_t( 0 to  1) :=( 2, 2)</argsstring>
+        <name>WINDOW_STRIDE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="43" column="1" bodyfile="src/slide.vhd" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide__tb__caux_1a1ca649fa8c8b9ac4fc67505f8c5d9a81" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>IN_SIZE int_arr_t( 0 to  1) :=( 8, 8)</definition>
+        <argsstring> int_arr_t( 0 to  1) :=( 8, 8)</argsstring>
+        <name>IN_SIZE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="45" column="1" bodyfile="src/slide.vhd" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide__tb__caux_1a4ff5d3c0d5e6d97736fa7a8afe3cefd3" prot="public" static="no" mutable="no">
+        <type>integer :=   IN_SIZE( 0)</type>
+        <definition>integer :=   IN_SIZE( 0) IN_LEN1</definition>
+        <argsstring></argsstring>
+        <name>IN_LEN1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="47" column="1" bodyfile="src/slide.vhd" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide__tb__caux_1ad710706411abfad34ed22929549691bb" prot="public" static="no" mutable="no">
+        <type>integer :=   IN_SIZE( 1)</type>
+        <definition>integer :=   IN_SIZE( 1) IN_LEN2</definition>
+        <argsstring></argsstring>
+        <name>IN_LEN2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="48" column="1" bodyfile="src/slide.vhd" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide__tb__caux_1a939381719fedaf493cd9c181ace319a8" prot="public" static="no" mutable="no">
+        <type>integer := 1+(   IN_LEN1-   WINDOW_SIZE( 0)/   WINDOW_STRIDE( 0))</type>
+        <definition>integer := 1+(   IN_LEN1-   WINDOW_SIZE( 0)/   WINDOW_STRIDE( 0)) WINDOW_COUNT_1</definition>
+        <argsstring></argsstring>
+        <name>WINDOW_COUNT_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="49" column="1" bodyfile="src/slide.vhd" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide__tb__caux_1a417518288a6ea62c4bbb56256e58d263" prot="public" static="no" mutable="no">
+        <type>integer := 1+(   IN_LEN2-   WINDOW_SIZE( 1)/   WINDOW_STRIDE( 1))</type>
+        <definition>integer := 1+(   IN_LEN2-   WINDOW_SIZE( 1)/   WINDOW_STRIDE( 1)) WINDOW_COUNT_2</definition>
+        <argsstring></argsstring>
+        <name>WINDOW_COUNT_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="50" column="1" bodyfile="src/slide.vhd" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide__tb__caux_1aa772ff8284fbe81cc89f371c38da0828" prot="public" static="no" mutable="no">
+        <type>integer :=   WINDOW_COUNT_1*   WINDOW_COUNT_2</type>
+        <definition>integer :=   WINDOW_COUNT_1*   WINDOW_COUNT_2 WINDOW_COUNT</definition>
+        <argsstring></argsstring>
+        <name>WINDOW_COUNT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="51" column="1" bodyfile="src/slide.vhd" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classslide__tb__caux_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" static="no" mutable="no">
+        <type>_use_</type>
+        <definition>_use_ int_arrint_arr</definition>
+        <argsstring>int_arr</argsstring>
+        <name>int_arr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/slide.vhd" line="38" column="1" bodyfile="src/slide.vhd" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>slide_tb_caux</label>
+        <link refid="classslide__tb__caux"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>slide</label>
+        <link refid="classslide"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>slide_tb_caux</label>
+        <link refid="classslide__tb__caux"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>slide</label>
+        <link refid="classslide"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/slide.vhd" line="40" column="1" bodyfile="src/slide.vhd" bodystart="40" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classslide_1a0f5bd1417751be61ec9dc0e014c1ecd1" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>i_in</name></member>
+      <member refid="classslide__tb__caux_1a4ff5d3c0d5e6d97736fa7a8afe3cefd3" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>IN_LEN1</name></member>
+      <member refid="classslide__tb__caux_1ad710706411abfad34ed22929549691bb" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>IN_LEN2</name></member>
+      <member refid="classslide__tb__caux_1a1ca649fa8c8b9ac4fc67505f8c5d9a81" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>IN_SIZE</name></member>
+      <member refid="classslide__tb__caux_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>int_arr</name></member>
+      <member refid="classslide_1ac8667d09263a09f6edb082093a8a6f0c" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>o_windows</name></member>
+      <member refid="classslide__tb__caux_1aa772ff8284fbe81cc89f371c38da0828" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>WINDOW_COUNT</name></member>
+      <member refid="classslide__tb__caux_1a939381719fedaf493cd9c181ace319a8" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>WINDOW_COUNT_1</name></member>
+      <member refid="classslide__tb__caux_1a417518288a6ea62c4bbb56256e58d263" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>WINDOW_COUNT_2</name></member>
+      <member refid="classslide__tb__caux_1a6b1c75d02b4bfee6faf1bd634f2135e9" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>WINDOW_SIZE</name></member>
+      <member refid="classslide__tb__caux_1ad74e82ca8dc7933c7567d5380e6ef86a" prot="public" virt="non-virtual"><scope>slide_tb_caux</scope><name>WINDOW_STRIDE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

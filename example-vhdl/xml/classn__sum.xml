@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classn__sum" kind="class" language="VHDL" prot="public">
+    <compoundname>n_sum</compoundname>
+    <derivedcompoundref refid="classn__macc" prot="public" virt="non-virtual">n_macc</derivedcompoundref>
+    <derivedcompoundref refid="classn__sum__tb" prot="public" virt="non-virtual">n_sum_tb</derivedcompoundref>
+    <innerclass refid="classn__sum_1_1comb" prot="private">n_sum::comb</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classn__sum_1a1e490a8b8d81c637041d0ed4151ac3de" prot="public" static="no" mutable="no">
+        <type>in</type>
+        <definition>in i_terms int_mat_t </definition>
+        <argsstring> int_mat_t </argsstring>
+        <name>i_terms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_sum.vhd" line="9" column="1" bodyfile="src/n_sum.vhd" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__sum_1ad04d4b367a0569d6346a8a02ba6d8b03" prot="public" static="no" mutable="no">
+        <type>out</type>
+        <definition>out o_n_sum int_arr_t </definition>
+        <argsstring> int_arr_t </argsstring>
+        <name>o_n_sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_sum.vhd" line="11" column="1" bodyfile="src/n_sum.vhd" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__sum_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" static="no" mutable="no">
+        <type>_use_</type>
+        <definition>_use_ int_arrint_arr</definition>
+        <argsstring>int_arr</argsstring>
+        <name>int_arr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_sum.vhd" line="1" column="1" bodyfile="src/n_sum.vhd" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>n_sum</label>
+        <link refid="classn__sum"/>
+      </node>
+      <node id="3">
+        <label>n_macc_caux_tb</label>
+        <link refid="classn__macc__caux__tb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>n_macc</label>
+        <link refid="classn__macc"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>n_sum_tb</label>
+        <link refid="classn__sum__tb"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/n_sum.vhd" line="3" column="1" bodyfile="src/n_sum.vhd" bodystart="3" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classn__sum_1a1e490a8b8d81c637041d0ed4151ac3de" prot="public" virt="non-virtual"><scope>n_sum</scope><name>i_terms</name></member>
+      <member refid="classn__sum_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" virt="non-virtual"><scope>n_sum</scope><name>int_arr</name></member>
+      <member refid="classn__sum_1ad04d4b367a0569d6346a8a02ba6d8b03" prot="public" virt="non-virtual"><scope>n_sum</scope><name>o_n_sum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classmacc__caux__tb_1_1behav" kind="class" language="VHDL" prot="private">
+    <compoundname>macc_caux_tb::behav</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmacc__caux__tb_1_1behav_1aa0b0109b377631f97cb8cb64ed440d28" prot="public" static="no" mutable="no">
+        <type>:function is    &quot;VHPIDIRECT conv&quot;</type>
+        <definition>:function is    &quot;VHPIDIRECT conv&quot; foreign</definition>
+        <argsstring></argsstring>
+        <name>foreign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="56" column="1" bodyfile="src/macc.vhd" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmacc__caux__tb_1_1behav_1a7864cd1efa219a03504fbafbeeed91a6" prot="public" static="no" mutable="no">
+        <type>:procedure is    &quot;VHPIDIRECT randFill&quot;</type>
+        <definition>:procedure is    &quot;VHPIDIRECT randFill&quot; foreign</definition>
+        <argsstring></argsstring>
+        <name>foreign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="60" column="1" bodyfile="src/macc.vhd" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmacc__caux__tb_1_1behav_1a3855267fc78f33f23c44b8aec762896d" prot="public" static="no" mutable="no">
+        <type>int_mat_t ( 0 to    WIDTH- 1, 0 to    HEIGHT- 1):=( others =&gt;( others =&gt; 0))</type>
+        <definition>int_mat_t ( 0 to    WIDTH- 1, 0 to    HEIGHT- 1):=( others =&gt;( others =&gt; 0)) s_window</definition>
+        <argsstring></argsstring>
+        <name>s_window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="62" column="1" bodyfile="src/macc.vhd" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmacc__caux__tb_1_1behav_1a5af9f3849ff7be7a854e811c726c5b0e" prot="public" static="no" mutable="no">
+        <type>int_mat_t ( 0 to    WIDTH- 1, 0 to    HEIGHT- 1):=( others =&gt;( others =&gt; 0))</type>
+        <definition>int_mat_t ( 0 to    WIDTH- 1, 0 to    HEIGHT- 1):=( others =&gt;( others =&gt; 0)) s_kernel</definition>
+        <argsstring></argsstring>
+        <name>s_kernel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="63" column="1" bodyfile="src/macc.vhd" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmacc__caux__tb_1_1behav_1ac597e638e939be61ca7646cb8131585c" prot="public" static="no" mutable="no">
+        <type>integer := 0</type>
+        <definition>integer := 0 s_macc</definition>
+        <argsstring></argsstring>
+        <name>s_macc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="64" column="1" bodyfile="src/macc.vhd" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmacc__caux__tb_1_1behav_1ab3cd915d758008bd19d0f2428fbb354a" prot="public" static="no" mutable="no">
+        <type><ref refid="classmacc" kindref="compound">macc</ref></type>
+        <definition></definition>
+        <argsstring>m</argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="77" column="1" bodyfile="src/macc.vhd" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmacc__caux__tb_1_1behav_1a2ad9990fc43c09892602c787ccf83162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>integer</type>
+        <definition>integer c_conv</definition>
+        <argsstring>kernel,window,</argsstring>
+        <name>c_conv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="54" column="1" bodyfile="src/macc.vhd" bodystart="54" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classmacc__caux__tb_1_1behav_1a955e10ca5e21c6a77328467e5485f482" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>c_randFill</definition>
+        <argsstring>dims,mat,</argsstring>
+        <name>c_randFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/macc.vhd" line="58" column="1" bodyfile="src/macc.vhd" bodystart="58" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classmacc__caux__tb_1_1behav_1aed1460bea841625ed713788c30ae3e33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PROCESS_0</definition>
+        <argsstring></argsstring>
+        <name>PROCESS_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="" line="79" column="1" bodyfile="src/macc.vhd" bodystart="79" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/macc.vhd" line="52" column="1" bodyfile="src/macc.vhd" bodystart="52" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classmacc__caux__tb_1_1behav_1a2ad9990fc43c09892602c787ccf83162" prot="public" virt="non-virtual"><scope>macc_caux_tb::behav</scope><name>c_conv</name></member>
+      <member refid="classmacc__caux__tb_1_1behav_1a955e10ca5e21c6a77328467e5485f482" prot="public" virt="non-virtual"><scope>macc_caux_tb::behav</scope><name>c_randFill</name></member>
+      <member refid="classmacc__caux__tb_1_1behav_1aa0b0109b377631f97cb8cb64ed440d28" prot="public" virt="non-virtual"><scope>macc_caux_tb::behav</scope><name>foreign</name></member>
+      <member refid="classmacc__caux__tb_1_1behav_1a7864cd1efa219a03504fbafbeeed91a6" prot="public" virt="non-virtual"><scope>macc_caux_tb::behav</scope><name>foreign</name></member>
+      <member refid="classmacc__caux__tb_1_1behav_1ab3cd915d758008bd19d0f2428fbb354a" prot="public" virt="non-virtual"><scope>macc_caux_tb::behav</scope><name>m</name></member>
+      <member refid="classmacc__caux__tb_1_1behav_1aed1460bea841625ed713788c30ae3e33" prot="public" virt="non-virtual"><scope>macc_caux_tb::behav</scope><name>PROCESS_0</name></member>
+      <member refid="classmacc__caux__tb_1_1behav_1a5af9f3849ff7be7a854e811c726c5b0e" prot="public" virt="non-virtual"><scope>macc_caux_tb::behav</scope><name>s_kernel</name></member>
+      <member refid="classmacc__caux__tb_1_1behav_1ac597e638e939be61ca7646cb8131585c" prot="public" virt="non-virtual"><scope>macc_caux_tb::behav</scope><name>s_macc</name></member>
+      <member refid="classmacc__caux__tb_1_1behav_1a3855267fc78f33f23c44b8aec762896d" prot="public" virt="non-virtual"><scope>macc_caux_tb::behav</scope><name>s_window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

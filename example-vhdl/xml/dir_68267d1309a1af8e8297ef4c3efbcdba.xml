@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>src</compoundname>
+    <innerfile refid="macc_8vhd">macc.vhd</innerfile>
+    <innerfile refid="n__macc_8vhd">n_macc.vhd</innerfile>
+    <innerfile refid="n__product_8vhd">n_product.vhd</innerfile>
+    <innerfile refid="n__sum_8vhd">n_sum.vhd</innerfile>
+    <innerfile refid="product_8vhd">product.vhd</innerfile>
+    <innerfile refid="slide_8vhd">slide.vhd</innerfile>
+    <innerfile refid="sum_8vhd">sum.vhd</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/"/>
+  </compounddef>
+</doxygen>

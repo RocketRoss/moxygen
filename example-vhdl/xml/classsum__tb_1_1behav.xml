@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classsum__tb_1_1behav" kind="class" language="VHDL" prot="private">
+    <compoundname>sum_tb::behav</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsum__tb_1_1behav_1a532f53f46c249d37a81693b4780ab78e" prot="public" static="no" mutable="no">
+        <type>int_arr_t( 0 to    WIDTH- 1) :=( others =&gt; 1)</type>
+        <definition>int_arr_t( 0 to    WIDTH- 1) :=( others =&gt; 1) terms</definition>
+        <argsstring></argsstring>
+        <name>terms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/sum.vhd" line="38" column="1" bodyfile="src/sum.vhd" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsum__tb_1_1behav_1a2485bc0d1fa75eac46689c1bc124ab72" prot="public" static="no" mutable="no">
+        <type>integer := 0</type>
+        <definition>integer := 0 summ</definition>
+        <argsstring></argsstring>
+        <name>summ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/sum.vhd" line="39" column="1" bodyfile="src/sum.vhd" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsum__tb_1_1behav_1a3691308f2a4c2f6983f2880d32e29c84" prot="public" static="no" mutable="no">
+        <type><ref refid="classsum" kindref="compound">sum</ref></type>
+        <definition></definition>
+        <argsstring>s</argsstring>
+        <name>s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/sum.vhd" line="48" column="1" bodyfile="src/sum.vhd" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsum__tb_1_1behav_1abb10532f24975e6cbac39a115779dba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PROCESS_6</definition>
+        <argsstring></argsstring>
+        <name>PROCESS_6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="" line="50" column="1" bodyfile="src/sum.vhd" bodystart="50" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/sum.vhd" line="37" column="1" bodyfile="src/sum.vhd" bodystart="37" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classsum__tb_1_1behav_1abb10532f24975e6cbac39a115779dba0" prot="public" virt="non-virtual"><scope>sum_tb::behav</scope><name>PROCESS_6</name></member>
+      <member refid="classsum__tb_1_1behav_1a3691308f2a4c2f6983f2880d32e29c84" prot="public" virt="non-virtual"><scope>sum_tb::behav</scope><name>s</name></member>
+      <member refid="classsum__tb_1_1behav_1a2485bc0d1fa75eac46689c1bc124ab72" prot="public" virt="non-virtual"><scope>sum_tb::behav</scope><name>summ</name></member>
+      <member refid="classsum__tb_1_1behav_1a532f53f46c249d37a81693b4780ab78e" prot="public" virt="non-virtual"><scope>sum_tb::behav</scope><name>terms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

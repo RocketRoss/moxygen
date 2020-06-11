@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classn__sum_1_1comb" kind="class" language="VHDL" prot="private">
+    <compoundname>n_sum::comb</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classn__sum_1_1comb_1a2b4a082ce3208c7cdb7e13620e38578d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PROCESS_3</definition>
+        <argsstring>i_terms</argsstring>
+        <name>PROCESS_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_sum.vhd" line="17" column="1" bodyfile="src/n_sum.vhd" bodystart="17" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/n_sum.vhd" line="14" column="1" bodyfile="src/n_sum.vhd" bodystart="14" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classn__sum_1_1comb_1a2b4a082ce3208c7cdb7e13620e38578d" prot="public" virt="non-virtual"><scope>n_sum::comb</scope><name>PROCESS_3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

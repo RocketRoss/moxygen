@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.19">
+  <compounddef id="classn__product" kind="class" language="VHDL" prot="public">
+    <compoundname>n_product</compoundname>
+    <derivedcompoundref refid="classn__macc" prot="public" virt="non-virtual">n_macc</derivedcompoundref>
+    <derivedcompoundref refid="classn__product__tb" prot="public" virt="non-virtual">n_product_tb</derivedcompoundref>
+    <innerclass refid="classn__product_1_1comb" prot="private">n_product::comb</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classn__product_1aac1116895f14a2b358e4ca132749e170" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>REVERSE_COEFF boolean </definition>
+        <argsstring> boolean </argsstring>
+        <name>REVERSE_COEFF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_product.vhd" line="9" column="1" bodyfile="src/n_product.vhd" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__product_1a36eae7a54bf2229f76fd09b28f4bbbbd" prot="public" static="no" mutable="no">
+        <type>in</type>
+        <definition>in i_terms int_3d_t </definition>
+        <argsstring> int_3d_t </argsstring>
+        <name>i_terms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_product.vhd" line="11" column="1" bodyfile="src/n_product.vhd" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__product_1aa646023603250d012027ce01d3e6fead" prot="public" static="no" mutable="no">
+        <type>in</type>
+        <definition>in i_coeff int_3d_t </definition>
+        <argsstring> int_3d_t </argsstring>
+        <name>i_coeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_product.vhd" line="12" column="1" bodyfile="src/n_product.vhd" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__product_1ace2b981d78f626c07c93bca2e4b95e8e" prot="public" static="no" mutable="no">
+        <type>out</type>
+        <definition>out o_n_product int_mat_t </definition>
+        <argsstring> int_mat_t </argsstring>
+        <name>o_n_product</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_product.vhd" line="14" column="1" bodyfile="src/n_product.vhd" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__product_1a139417de078901d0496b7529fd2893a1" prot="public" static="no" mutable="no">
+        <type>integer :=   i_terms&apos;length( 1)</type>
+        <definition>integer :=   i_terms&apos;length( 1) LEN1</definition>
+        <argsstring></argsstring>
+        <name>LEN1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_product.vhd" line="16" column="1" bodyfile="src/n_product.vhd" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__product_1a30c9f01e7e55007290db663dd617cd2a" prot="public" static="no" mutable="no">
+        <type>integer :=   i_terms&apos;length( 2)</type>
+        <definition>integer :=   i_terms&apos;length( 2) LEN2</definition>
+        <argsstring></argsstring>
+        <name>LEN2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_product.vhd" line="17" column="1" bodyfile="src/n_product.vhd" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__product_1aa12267fc66c2a17bdbc44f1e82392a8d" prot="public" static="no" mutable="no">
+        <type>integer :=   i_terms&apos;length( 3)</type>
+        <definition>integer :=   i_terms&apos;length( 3) LEN3</definition>
+        <argsstring></argsstring>
+        <name>LEN3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_product.vhd" line="18" column="1" bodyfile="src/n_product.vhd" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classn__product_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" static="no" mutable="no">
+        <type>_use_</type>
+        <definition>_use_ int_arrint_arr</definition>
+        <argsstring>int_arr</argsstring>
+        <name>int_arr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/n_product.vhd" line="1" column="1" bodyfile="src/n_product.vhd" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>n_product</label>
+        <link refid="classn__product"/>
+      </node>
+      <node id="4">
+        <label>n_product_tb</label>
+        <link refid="classn__product__tb"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>n_macc_caux_tb</label>
+        <link refid="classn__macc__caux__tb"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>n_macc</label>
+        <link refid="classn__macc"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="src/n_product.vhd" line="3" column="1" bodyfile="src/n_product.vhd" bodystart="3" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="classn__product_1aa646023603250d012027ce01d3e6fead" prot="public" virt="non-virtual"><scope>n_product</scope><name>i_coeff</name></member>
+      <member refid="classn__product_1a36eae7a54bf2229f76fd09b28f4bbbbd" prot="public" virt="non-virtual"><scope>n_product</scope><name>i_terms</name></member>
+      <member refid="classn__product_1ad0d7f4c2a67b82aa54629ddad44c7284" prot="public" virt="non-virtual"><scope>n_product</scope><name>int_arr</name></member>
+      <member refid="classn__product_1a139417de078901d0496b7529fd2893a1" prot="public" virt="non-virtual"><scope>n_product</scope><name>LEN1</name></member>
+      <member refid="classn__product_1a30c9f01e7e55007290db663dd617cd2a" prot="public" virt="non-virtual"><scope>n_product</scope><name>LEN2</name></member>
+      <member refid="classn__product_1aa12267fc66c2a17bdbc44f1e82392a8d" prot="public" virt="non-virtual"><scope>n_product</scope><name>LEN3</name></member>
+      <member refid="classn__product_1ace2b981d78f626c07c93bca2e4b95e8e" prot="public" virt="non-virtual"><scope>n_product</scope><name>o_n_product</name></member>
+      <member refid="classn__product_1aac1116895f14a2b358e4ca132749e170" prot="public" virt="non-virtual"><scope>n_product</scope><name>REVERSE_COEFF</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
