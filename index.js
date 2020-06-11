@@ -30,30 +30,76 @@ module.exports = {
     classes: false,             /** Output doxygen classes separately **/
 
     filters: {
-      members: [
-        'define',
-        'enum',
-        // 'enumvalue',
-        'func',
-        // 'variable',
-        'property',
-        'public-attrib',
-        'public-func',
-        'protected-attrib',
-        'protected-func',
-        'signal',
-        'public-slot',
-        'protected-slot',
-        'public-type'
-      ],
-      compounds: [
-        'namespace',
-        'class',
-        'struct',
-        'union',
-        'typedef',
-        // 'file'
-      ]
+      cpp: {
+        members: [
+          'define',
+          'enum',
+          // 'enumvalue',
+          'func',
+          // 'variable',
+          'property',
+          'public-attrib',
+          'public-func',
+          'protected-attrib',
+          'protected-func',
+          'signal',
+          'public-slot',
+          'protected-slot',
+          'public-type'
+        ],
+        compounds: [
+          'namespace',
+          'class',
+          'struct',
+          'union',
+          'typedef',
+          // 'file'
+        ]
+      },
+      vhdl: {
+        members: [
+          'define',
+          'enum',
+          // 'enumvalue',
+          'func',
+          // 'variable',
+          'property',
+          'public-attrib',
+          'public-func',
+          'protected-attrib',
+          'protected-func',
+          'signal',
+          'public-slot',
+          'protected-slot',
+          'public-type'
+        ],
+        compounds: [
+          'namespace',
+          'class',
+          'struct',
+          'union',
+          'typedef',
+          // 'file'
+        ]
+      },
+      // vhdl: {
+      //   members: [
+      //     'signal',
+      //     'variable',
+      //     'process',
+      //     'procedure',
+      //     'function',
+      //     'type',
+      //     'subtype',
+      //   ],
+      //   compounds: [
+      //     'architecture',
+      //     'entity',
+      //     'package',
+      //     'record',
+      //     'typedef',
+      //   ]
+      // },
     }
   },
 
@@ -86,7 +132,7 @@ module.exports = {
             "located in your doxygen XML files."
 
         groups.forEach(function (group) {
-          group.filterChildren(options.filters, group.id);
+          group.filterChildren(options.filters[options.language], group.id);
 
           var compounds = group.toFilteredArray('compounds');
           compounds.unshift(group); // insert group at top
@@ -99,18 +145,18 @@ module.exports = {
           throw "You have enabled `classes` output, but no classes were " +
             "located in your doxygen XML files."
         rootCompounds.forEach(function (comp) {
-          comp.filterChildren(options.filters);
+          comp.filterChildren(options.filters[options.language]);
           var compounds = comp.toFilteredArray();
           helpers.writeCompound(comp, [templates.render(comp)], doxyparser.references, options);
           compounds.forEach(function (e) {
-            e.filterChildren(options.filters)
+            e.filterChildren(options.filters[options.language])
             helpers.writeCompound(e, [templates.render(e)], doxyparser.references, options);
           });
         });
       }
       // Output single file
       else {
-        root.filterChildren(options.filters);
+        root.filterChildren(options.filters[options.language]);
 
         var compounds = root.toFilteredArray('compounds');
         if (!options.noindex)
